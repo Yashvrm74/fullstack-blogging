@@ -1,5 +1,5 @@
 pipeline {  
-    agent any
+    agent { label 'salve-1' }
     
     tools {
         maven 'maven3'
